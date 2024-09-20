@@ -1,0 +1,265 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.text-one {
+    color: #2e2f42;
+}
+
+.heading {
+     font-weight: 500;
+     font-size: 20px;
+     line-height: 1.2;
+     letter-spacing: 0.02em
+}
+
+.paragraph-one {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
+    letter-spacing: 0.02em;
+}
+
+.list {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #2e2f42;
+}
+
+.list-odyn {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.list-adin {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.list-adin:hover,
+.list-adin:focus {
+    color: #404bbf;
+}
+
+.list-odyn:hover,
+.list-odyn:focus {
+    color: #404bbf;
+}
+
+.address {
+    font-style: normal;
+}
+
+.contacts-info {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+
+.contacts-info-1 {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.contacts-info-odyn {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.contacts-info-odyn:hover,
+.contacts-info-odyn:focus{
+   color: #404bbf
+}
+
+.contacts-info-1:hover,
+.contacts-info-1:focus {
+    color: #404bbf;
+}
+
+.contacts-info:hover,
+.contacts-info:focus {
+  color: purple;
+}
+
+.first-section {
+  background-color: #2e2f42;
+}
+
+.section-odyn {
+ font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+letter-spacing: 0.02em;
+text-align: center;
+color: #ffffff;
+}
+
+.button {
+background-color: #4D5AE5;
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #ffffff;
+cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+background-color: #404BBF;
+}
+
+.two-section {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.paragraph-1 {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
+}
+.paragraph-two {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+
+.heading-zwei {
+ font-weight: 500;
+ font-size: 20px;
+ line-height: 1.2;
+ letter-spacing: 0.02em;
+ color: #2e2f42;
+}
+
+.paragraph-zwei {
+ font-size: 16px;
+ line-height: 1.5;
+ letter-spacing: 0.02em;
+ color: #434455; 
+}
+
+.heading-four {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
+.heading-fier {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.paragraph-cztery {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.paragraph {
+ font-size: 16px;
+ line-height: 1.5;
+ letter-spacing: 0.02em;
+ color: #434455;
+}
+
+.paragraph-jeden {
+    font-size: 36px;
+    text-align: center;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
+.third-section {
+    background-color: #F4F4FD;
+}
+
+.heading-2 {
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #2e2f42;
+}
+
+.list-item-dwa {
+    background-color: #FFFFFF;
+}
+
+a {
+ font-weight: 700;
+ font-size: 18px;
+ line-height: 1.16667;
+ letter-spacing: 0.03em;
+ text-transform: uppercase;
+}
+
+a:hover,
+a:focus {
+    color: #4d5ae5;
+}
+
+.paragraph-2 {
+ font-weight: 400;
+ font-size: 16px;
+ line-height: 1.5;
+ letter-spacing: 0.02em;
+ color: #f4f4fd;
+}
+
+.footer {
+    background-color: #2e2f42;;
+}
+
+.paragraph-footer {
+    line-height: 1.5;
+    color: #F4F4FD;
+    letter-spacing: 0.02em;
+}
+
+.text {
+    color: #f4f4fd;
+}
