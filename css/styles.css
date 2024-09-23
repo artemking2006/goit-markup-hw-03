@@ -38,15 +38,7 @@ body {
     letter-spacing: 0.02em;
 }
 
-.list {
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #2e2f42;
-}
-
-.list-odyn {
+.nav-li {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -62,9 +54,7 @@ color: #2e2f42;
     margin: 24px 332px 24px 76px;
 }
 
-
-
-.list-adin {
+.nav-link {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -72,13 +62,13 @@ color: #2e2f42;
     color: #2e2f42;
 }
 
-.list-adin:hover,
-.list-adin:focus {
+.nav-link:hover,
+.nav-link:focus {
     color: #404bbf;
 }
 
-.list-odyn:hover,
-.list-odyn:focus {
+.nav-li:hover,
+.nav-li:focus {
     color: #404bbf;
 }
 
@@ -102,27 +92,27 @@ color: #434455;
     margin: 24px 156px 24px 40px;
 }
 
-.contacts-info-1 {
+.nav-li-hero-one {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
 
-.contacts-info-odyn {
+.nav-li-hero {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
 
-.contacts-info-odyn:hover,
-.contacts-info-odyn:focus{
-   color: #404bbf
+.nav-li-hero:hover,
+.nav-li-hero:focus{
+   color: #404bbf;
 }
 
-.contacts-info-1:hover,
-.contacts-info-1:focus {
+.nav-li-hero-one:hover,
+.nav-li-hero-one:focus {
     color: #404bbf;
 }
 
@@ -140,8 +130,7 @@ color: #434455;
   background-color: #2e2f42;
 }
 
-.section-odyn {
- font-weight: 700;
+.hero-title {
 font-size: 56px;
 line-height: 1.07;
 letter-spacing: 0.02em;
@@ -187,15 +176,7 @@ background-color: #404BBF;
     margin: 120px 156px 120px 156px;
 }
 
-.two-section {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-
-.paragraph-1 {
+.first-section {
     font-size: 16px;
     line-height: 1.5;
     color: #434455;
@@ -284,7 +265,7 @@ background-color: #404BBF;
     background-color: #F4F4FD;
 }
 
-.heading-2 {
+.two-section {
 font-size: 36px;
 line-height: 1.11;
 text-align: center;
@@ -307,11 +288,7 @@ color: #2e2f42;
 }
 
 a {
- font-weight: 700;
- font-size: 18px;
- line-height: 1.16667;
- letter-spacing: 0.03em;
- text-transform: uppercase;
+ text-decoration: none;
 }
 
 a:hover,
@@ -319,7 +296,7 @@ a:focus {
     color: #4d5ae5;
 }
 
-.paragraph-2 {
+.paragraph-two {
  font-weight: 400;
  font-size: 16px;
  line-height: 1.5;
