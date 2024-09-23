@@ -45,11 +45,6 @@ ul {
     margin-right: 76px;
 }
 
-.logo {
-    display: inline-block;
-    margin-bottom: 16px;
-}
-
 .text-one {
     color: #2e2f42;
 }
@@ -420,6 +415,11 @@ a:focus {
     width: 264px;
     height: 112px;
     padding: 100px 0;
+}
+
+.logo-second {
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-paragraph{
