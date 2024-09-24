@@ -7,10 +7,18 @@ body {
 ul {
     padding-left: 0;
     margin: 0;
+    list-style: none;
 }
 
 .header-first {
   border-bottom: 1px solid #e7e9fc;
+}
+
+.header-first-container {
+    display: flex;
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
 .div-first {
@@ -18,7 +26,6 @@ ul {
 } 
 
 .container {
-    display: flex;
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
@@ -263,7 +270,6 @@ img {
 
 
 .list-item-section-three {
-    margin-right: 24px;
     margin-bottom: 0px;
     width: calc((100% - 48px)/3);
 }
@@ -412,8 +418,6 @@ a:focus {
 
 .footer {
     background-color: #2e2f42;
-    width: 264px;
-    height: 112px;
     padding: 100px 0;
 }
 
