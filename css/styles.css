@@ -408,10 +408,8 @@ a:focus {
 }
 
 .list-item-two {
-    margin-right: 40px;
     width: calc((100% - 3 * 24px) / 4);
     list-style: none;
-
 }
 
 .list-item-five {
