@@ -10,15 +10,17 @@ ul {
     list-style: none;
 }
 
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
 .header-first {
   border-bottom: 1px solid #e7e9fc;
 }
 
 .header-first .container {
     display: flex;
-    width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px;
+    align-items: center;
 }
 
 .div-first {
@@ -77,7 +79,6 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    margin-right: 40px;
 }
 
 .nav-li-one {
@@ -90,6 +91,7 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    display: block;
     padding: 24px 0;
 }
 
@@ -105,6 +107,7 @@ ul {
 
 .address {
     font-style: normal;
+    margin-left: auto;
 }
 
 .list-info {
@@ -170,6 +173,9 @@ letter-spacing: 0.02em;
 text-align: center;
 color: #ffffff;
 max-width: 496px;
+margin-bottom: 48px;
+margin-left: auto;
+margin-right: auto;
 }
 
 .button {
@@ -188,6 +194,9 @@ border: none;
 background-color: #4d5ae5;
 border-radius: 4px;
 cursor: pointer;
+margin-bottom: 48px;
+margin-left: auto;
+margin-right: auto;
 }
 
 .button:hover,
@@ -348,12 +357,6 @@ img {
 }
 
 .two-section {
-font-size: 36px;
-line-height: 1.11;
-text-align: center;
-letter-spacing: 0.02em;
-text-transform: capitalize;
-color: #2e2f42;
 padding: 120px 0;
 }
 
@@ -424,6 +427,14 @@ a:focus {
 .logo-second {
     display: inline-block;
     margin-bottom: 16px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    margin-right: 76px;
 }
 
 .footer-paragraph{
